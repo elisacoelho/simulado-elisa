@@ -12,7 +12,7 @@ Calcule e apresente, ao final do programa:
 
 
 //ENTRADA
-const precoGarrafa = prompt(`Insira o preço da garrafa de refrigerante:`);
+const precoGarrafa = Number(prompt(`Insira o preço da garrafa de refrigerante:`).replace(",","."));
 
 
 
@@ -28,8 +28,6 @@ const calculo4= (calculo3) - (15/100*calculo3);
 //SAÍDA
 
 alert(`O preço para compra de uma garrafa é de ${calculo1}. 
-O preço para a compra de duas garrafas é de ${precoDuasGarrafas}. Já o preço para a compra de três garrafas é de ${calculo4}`);
-
-
+O preço para a compra de duas garrafas é de ${precoDuasGarrafas}.Já o preço para a compra de três garrafas é de ${calculo4}`);
 
 </script>

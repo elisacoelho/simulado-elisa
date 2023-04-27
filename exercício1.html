@@ -6,17 +6,16 @@ Apresente, ao final do programa, qual é o custo total da bebida consumida*/
 
 
 //ENTRADA
-const precoBebida = Number (prompt(`Insira o preço do litro da bebida`));
-const quantidadeConsumida = Number (prompt(`Insira a quantidade de bebida consumida`));
+const precoBebida = prompt(`Insira o preço do litro da bebida`);
+const quantidadeConsumida = prompt(`Insira a quantidade de bebida consumida`);
 
 //PROCESSAMENTO
-const calculo = (precoBebida) * (quantidadeConsumida);
+const calculo = (precoBebida) * (quantidadeConsumida)
 
 
 //SAÍDA
 
-alert(`O custo total da bebida consumida foi de R$ ${calculo.toFixed(2).replace(".",",")}.`);
-
+alert(`O custo total da bebida consumida foi de ${calculo}`);
 
 
 
